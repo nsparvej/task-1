@@ -1,0 +1,347 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.section-1 {
+    background-image: url("./asset/photo_2024-07-02_20-58-19.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-inline-start: 300px;
+    padding-inline-end: 300px;
+
+
+}
+
+#navigation {
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    display: flex;
+    padding: 30px 0px;
+}
+
+#logo-png {
+    width: 50px;
+    height: 40px;
+}
+
+#logo-name {
+    color: #fff;
+    font-size: xx-large;
+}
+
+#option a {
+    justify-content: space-between;
+    padding-right: 100px;
+    font-size: medium;
+    color: #fff;
+    text-decoration: none;
+
+}
+
+#section-2 {
+    background-color: #fff;
+
+}
+
+#brand {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#brand img {
+    width: 150px;
+
+}
+
+.btn {
+    color: #fff;
+    background-color: aqua;
+    padding: 10px 20px;
+    font-size: medium;
+    border-radius: 10px;
+    border: 2px solid aqua;
+}
+
+.btn:hover {
+    background-color: transparent;
+}
+
+.banner {
+    display: flex;
+    padding-top: 60px;
+}
+
+.banner-section {
+    padding: 100px 0px;
+}
+
+.banner-section h1 {
+    font-size: 60px;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.banner-section span {
+    color: aqua;
+}
+
+.banner-section p {
+    color: #fff;
+    font-size: 25px;
+    padding-right: 60px;
+}
+
+.banner-section button {
+    font-size: 25px;
+    color: #fff;
+    background-color: aqua;
+    padding: 15px 15px;
+    margin-top: 15px;
+}
+
+.partner h1 {
+    font-size: 30px;
+    font-weight: 300;
+    padding: 70px 0px;
+
+}
+
+.partner {
+    padding: 50px 300px;
+}
+
+.advice {
+    font-size: 30px;
+    font-weight: 100;
+    padding-inline-start: 300px;
+    padding-top: 90px;
+}
+
+.advice button {
+    color: #fff;
+    background-color: aqua;
+    padding: 10px 20px;
+    font-size: medium;
+    border-radius: 10px;
+    border: 2px solid aqua;
+    margin-bottom: 40px;
+}
+
+.advice h1 {
+    font-weight: 100;
+}
+
+.card {
+    background-color: rgb(221, 227, 225);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(red, green, blue, alpha);
+    padding: 20px;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 80% 100%, 0 100%);
+
+}
+
+.card img {
+    height: 50px;
+}
+
+.card h1 {
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.card p {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.card button {
+    color: #fff;
+    background-color: aqua;
+    padding: 10px 20px;
+    font-size: medium;
+    border-radius: 10px;
+    border: 2px solid aqua;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.button:hover {
+    background-color: transparent;
+}
+
+.body {
+    display: flex;
+    padding-inline-start: 300px;
+    padding-inline-end: 300px;
+    gap: 20px;
+    margin-top: 60px;
+}
+
+.card-section-2 {
+    background-color: rgb(221, 230, 230);
+}
+
+.card-2 {
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(red, green, blue, alpha);
+    padding: 20px;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 80% 100%, 0 100%);
+
+}
+
+.card-2 img {
+    height: 50px;
+}
+
+.card-2 h1 {
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.card-2 p {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.card-2 button {
+    color: #fff;
+    background-color: aqua;
+    padding: 10px 20px;
+    font-size: medium;
+    border-radius: 10px;
+    border: 2px solid aqua;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.card-body {
+    display: flex;
+    padding-inline-start: 300px;
+    padding-inline-end: 300px;
+    gap: 25px;
+}
+
+.card-section-2 {
+    margin-top: 90px;
+    padding-bottom: 80px;
+}
+
+.have-done {
+    padding-inline-start: 280px;
+    padding-top: 70px;
+    margin-bottom: 100px;
+}
+
+.have-done {
+    padding-inline-start: 280px;
+}
+
+.have-done button {
+    color: #fff;
+    background-color: aqua;
+    padding: 10px 20px;
+    font-size: medium;
+    border-radius: 10px;
+    border: 2px solid aqua;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.have-done h1 {
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.star {
+    display: flex;
+    padding-top: 20px;
+}
+
+.star img {
+    height: 25px;
+}
+
+.contact-us {
+    background-image: url(asset/background.png);
+    height: 70vh;
+
+}
+
+.contact-us-more {
+
+    padding-inline-start: 500px;
+    padding-inline-end: 500px;
+
+}
+
+.contact-us-more h1 {
+    font-size: 30px;
+    font-weight: 300;
+    color: #fff;
+    padding-top: 120px;
+    padding-bottom: 15px;
+
+}
+
+.contact-us-more p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+.contact-us-more input {
+    width: 500px;
+    margin-bottom: 5px;
+    height: 30px;
+}
+.contact-us-more button {
+    color: #fff;
+    background-color: aqua;
+    padding: 10px 20px;
+    font-size: medium;
+    border-radius: 10px;
+    border: 2px solid aqua;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    
+}
+#option-last a {
+    justify-content: space-between;
+    padding-right: 100px;
+    font-size: medium;
+    color: black;
+    text-decoration: none;
+
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline-start: 300px;
+    padding-inline-end: 300px;
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+.icon{
+    display: flex;
+    gap:20px;
+}
